@@ -1,0 +1,15 @@
+C:\Projects\Cims4\Cims4.Business\bin\Debug\net8.0\Cims4.Application.deps.json
+C:\Projects\Cims4\Cims4.Business\bin\Debug\net8.0\Cims4.Application.dll
+C:\Projects\Cims4\Cims4.Business\bin\Debug\net8.0\Cims4.Application.pdb
+C:\Projects\Cims4\Cims4.Business\bin\Debug\net8.0\Cims4.Core.dll
+C:\Projects\Cims4\Cims4.Business\bin\Debug\net8.0\Cims4.Core.pdb
+C:\Projects\Cims4\Cims4.Business\obj\Debug\net8.0\Cims4.Application.csproj.AssemblyReference.cache
+C:\Projects\Cims4\Cims4.Business\obj\Debug\net8.0\Cims4.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Cims4\Cims4.Business\obj\Debug\net8.0\Cims4.Application.AssemblyInfoInputs.cache
+C:\Projects\Cims4\Cims4.Business\obj\Debug\net8.0\Cims4.Application.AssemblyInfo.cs
+C:\Projects\Cims4\Cims4.Business\obj\Debug\net8.0\Cims4.Application.csproj.CoreCompileInputs.cache
+C:\Projects\Cims4\Cims4.Business\obj\Debug\net8.0\Cims4.Application.csproj.CopyComplete
+C:\Projects\Cims4\Cims4.Business\obj\Debug\net8.0\Cims4.Application.dll
+C:\Projects\Cims4\Cims4.Business\obj\Debug\net8.0\refint\Cims4.Application.dll
+C:\Projects\Cims4\Cims4.Business\obj\Debug\net8.0\Cims4.Application.pdb
+C:\Projects\Cims4\Cims4.Business\obj\Debug\net8.0\ref\Cims4.Application.dll

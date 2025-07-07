@@ -1,0 +1,197 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Win.Design" Version="23.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.5" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cims4.Business\Cims4.Application.csproj" />
+    <ProjectReference Include="..\Cims4.Core\Cims4.Core.csproj" />
+    <ProjectReference Include="..\Cims4.Infrastructure\Cims4.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.BonusSkins.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v23.1.Core">
+      <HintPath>..\..\..\Assemblies\DevExpress.Charts.v23.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.CodeParser.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.Desktop.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.Data.Desktop.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.Data.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.DataAccess.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v23.1.UI">
+      <HintPath>..\..\..\Assemblies\DevExpress.DataAccess.v23.1.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.DataVisualization.v23.1.Core">
+      <HintPath>..\..\..\Assemblies\DevExpress.DataVisualization.v23.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Diagram.v23.1.Core">
+      <HintPath>..\..\..\Assemblies\DevExpress.Diagram.v23.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Dialogs.v23.1.Core">
+      <HintPath>..\..\..\Assemblies\DevExpress.Dialogs.v23.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Drawing.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.Drawing.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Images.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.Images.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Office.v23.1.Core">
+      <HintPath>..\..\..\Assemblies\DevExpress.Office.v23.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v23.1.Core">
+      <HintPath>..\..\..\Assemblies\DevExpress.Pdf.v23.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v23.1.Drawing">
+      <HintPath>..\..\..\Assemblies\DevExpress.Pdf.v23.1.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v23.1.Core">
+      <HintPath>..\..\..\Assemblies\DevExpress.PivotGrid.v23.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v23.1.Core">
+      <HintPath>..\..\..\Assemblies\DevExpress.Printing.v23.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v23.1.Core">
+      <HintPath>..\..\..\Assemblies\DevExpress.RichEdit.v23.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v23.1.Export">
+      <HintPath>..\..\..\Assemblies\DevExpress.RichEdit.v23.1.Export.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v23.1.Core">
+      <HintPath>..\..\..\Assemblies\DevExpress.Sparkline.v23.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.Utils.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v23.1.UI">
+      <HintPath>..\..\..\Assemblies\DevExpress.Utils.v23.1.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.Xpo.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraBars.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v23.1.Design">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraBars.v23.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraCharts.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v23.1.Extensions">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraCharts.v23.1.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v23.1.Wizard">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraCharts.v23.1.Wizard.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraDiagram.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraDiagram.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraDialogs.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraDialogs.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraEditors.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v23.1.Design">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraEditors.v23.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v23.1.Core">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraGauges.v23.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraGrid.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v23.1.Design">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraGrid.v23.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraLayout.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v23.1.Design">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraLayout.v23.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraNavBar.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v23.1.Design">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraNavBar.v23.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraPivotGrid.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v23.1.Design">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraPivotGrid.v23.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraPrinting.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v23.1.Design">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraPrinting.v23.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraReports.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v23.1.Extensions">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraReports.v23.1.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraRichEdit.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraTreeList.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v23.1.Design">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraTreeList.v23.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraVerticalGrid.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v23.1.Design">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraVerticalGrid.v23.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraWizard.v23.1">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraWizard.v23.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraWizard.v23.1.Design">
+      <HintPath>..\..\..\Assemblies\DevExpress.XtraWizard.v23.1.Design.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

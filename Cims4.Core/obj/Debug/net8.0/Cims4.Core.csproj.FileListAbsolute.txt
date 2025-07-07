@@ -1,0 +1,11 @@
+C:\Projects\Cims4\Cims4.Core\bin\Debug\net8.0\Cims4.Core.deps.json
+C:\Projects\Cims4\Cims4.Core\bin\Debug\net8.0\Cims4.Core.dll
+C:\Projects\Cims4\Cims4.Core\bin\Debug\net8.0\Cims4.Core.pdb
+C:\Projects\Cims4\Cims4.Core\obj\Debug\net8.0\Cims4.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Cims4\Cims4.Core\obj\Debug\net8.0\Cims4.Core.AssemblyInfoInputs.cache
+C:\Projects\Cims4\Cims4.Core\obj\Debug\net8.0\Cims4.Core.AssemblyInfo.cs
+C:\Projects\Cims4\Cims4.Core\obj\Debug\net8.0\Cims4.Core.csproj.CoreCompileInputs.cache
+C:\Projects\Cims4\Cims4.Core\obj\Debug\net8.0\Cims4.Core.dll
+C:\Projects\Cims4\Cims4.Core\obj\Debug\net8.0\refint\Cims4.Core.dll
+C:\Projects\Cims4\Cims4.Core\obj\Debug\net8.0\Cims4.Core.pdb
+C:\Projects\Cims4\Cims4.Core\obj\Debug\net8.0\ref\Cims4.Core.dll
